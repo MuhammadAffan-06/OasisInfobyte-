@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Convertor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main-heading">
+      <h1>Temperature Convertor</h1>
+    </div>
+    <div>
+      <form id="mainForm">
+        <label id="dropdown-menu">Choose the unit of your value:</label>
+        <br />
+        <select id="dropdownValue" class="dropdown-menu">
+          <option value="kelvin">Kelvin</option>
+          <option value="celsius">Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+        <label for="userInput">Input the value of temperature:</label>
+        <br />
+        <input class="inputFields" id="userInput" type="text" />
+        <label for="dropdown-menu">Select the unit of conversion:</label>
+        <br />
+        <select id="conversionDropdown" class="dropdown-menu">
+          <option value="kelvin">Kelvin</option>
+          <option value="celsius" selected>Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+        <input class="Btn" type="button" value="Convert" />
+        <label class="" for="processedOutput">Converted Temperature:</label>
+        <br />
+        <input class="inputFields" id="processedOutput" type="text" />
+        <input class="Btn" type="reset" value="Reset Values" id="resetBtn" />
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

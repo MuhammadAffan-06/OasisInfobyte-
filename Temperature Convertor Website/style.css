@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primary-font: "Roboto", sans-serif;
+}
+body {
+  background-image: linear-gradient(to right, #09203f, #537895);
+  background-size: cover;
+  font-family: var(--primary-font);
+  padding-bottom: 3rem;
+}
+.main-heading {
+  color: white;
+  text-align: center;
+  margin-bottom: 10rem;
+  margin-top: 5rem;
+}
+#mainForm {
+  color: white;
+  border: 2px solid black;
+  width: fit-content;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 25px;
+}
+label {
+  font-size: large;
+}
+.dropdown-menu,
+.inputFields,
+.Btn {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: medium;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: var(--primary-font);
+  border: none ;
+}
+.dropdown-menu {
+  padding: 1.25rem;
+  border-radius: 2rem;
+}
+.inputFields {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.Btn {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+}
+#resetBtn
+{
+  background-color: green;
+}
